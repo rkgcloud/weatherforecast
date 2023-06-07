@@ -1,0 +1,15 @@
+id: 39bb74e4-8b64-4c96-a909-26407786eeca
+timestamp: 2023-06-07T02:54:49Z
+username: guest
+source: TAP-GUI
+accelerator:
+  name: weatherforecast-csharp
+  source:
+    image: gcr.io/tanzucliappdev/tap-components/tap-packages@sha256:09609dda82694866239a01daa6ab5740af3d64149300dcda22ac09315b4ea439
+fragments:
+  - name: tap-workload
+    source:
+      image: gcr.io/tanzucliappdev/tap-components/tap-packages@sha256:dbf0dedb6848ad8a7704c1c19465a1ddae9039b0e63c1dd0df3e2ed9cbda6093
+options:
+  applicationName: WeatherApp
+  projectName: weatherforecast
