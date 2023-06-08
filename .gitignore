@@ -7,3 +7,6 @@ obj/
 
 # JetBrains Rider
 /.idea
+
+# Visual Studio
+.vs
